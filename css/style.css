@@ -39,7 +39,7 @@ p {
 .navbar-light .navbar-nav .nav-link {
     font-size: 1.2rem;
     color: #000;
-/*    font-weight: 700;*/
+    /*    font-weight: 700;*/
     font-family: Arial, Helvetica, sans-serif;
     border-bottom: 1px solid #999;
     padding: 10px 0;
@@ -57,4 +57,45 @@ p {
     color: #000;
 }*/
 
+/*MAIN STYLE*/
+
+.strict {
+    padding:50px 0 50px;
+    background-size: cover;
+    background-position:center;
+}
+.strict h1 {
+    font-weight:700;
+}
+.strict h1:after {
+    display:block;
+    content:'';
+    height:2px;
+    background-color: #15a4fa;
+    width: 100%;
+    margin: 15px auto;
+}
+.strict p.lead {
+    color:#fff;
+}
+button[type="button"].btn,
+button[type="submit"].btn {
+    color:#fff;
+    border-color: #15a4fa;
+    font-size:1.2rem;
+    outline:none;
+    padding: 12px 30px;
+}
+.btn:focus, .btn.focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.05rem #48BAFF;
+}
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #15a4fa;
+    border-color: #15a4fa;
+}
+.strict button:hover {
+    background: #15a4fa;
+}
 
