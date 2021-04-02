@@ -99,3 +99,19 @@ button[type="submit"].btn {
     background: #15a4fa;
 }
 
+.features .fa {
+    font-size:2rem;
+    color:#fff;
+    background-image: linear-gradient(to right, #15a4fa 50%, #48BAFF 50.001%);
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    text-shadow: -1px 1px 1px rgba(2,2,2,0.4);
+    border-radius: 2px;
+}
+
+.features .fa-mobile {
+    font-size: 3rem;
+}
+

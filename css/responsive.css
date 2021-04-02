@@ -8,6 +8,10 @@
         width: 90%;
         margin: 20px auto;
     }
+    .features-item-title {
+        height: 3rem;
+        overflow: hidden;
+    }
 }
 
 @media(min-width:768px){
@@ -30,6 +34,10 @@
     .strict h1:after {
         width: 75%;
         margin: 20px auto; 
+    }
+    .features-item-title {
+        height: auto;
+        overflow: visible;
     }
 }
 
@@ -73,6 +81,9 @@
 
     .subtitle {
         font-size: 20px !important;
+    }
+    .features {
+        padding: 65px 0 !important;
     }
 }
 
