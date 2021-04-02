@@ -147,4 +147,75 @@ button[type="submit"].btn {
     font-size: 1rem;
     text-decoration: none;
 }
+.subscribe {
+    background-size: cover;
+    background-position: center;
+}
+
+.subscribe .title {
+    color: #fff;
+}
+.form-control:placeholder {
+    color: #999;
+}
+.form-control {
+    padding:15px 20px;
+    font-size:1rem;
+    height:auto;
+    background:transparent;
+    line-height:1.5;
+    color: #999999;
+    background-clip: padding-box;
+    border: 1px solid #999;
+    border-radius: 3px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.form-control:focus {
+    color: #999;
+    background-color: transparent;
+    border-color: #15a4fa;
+    outline: 0;
+    box-shadow: 0 0 0 0.05rem #48BAFF;
+}
+.subscribe textarea {
+    resize: none;
+}
+
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    display: block;
+    padding-left: 25px;
+    line-height: 12px;
+    cursor: pointer;
+}
+
+input[type="checkbox"] {
+    width: 0px;
+    visibility: hidden;
+    display: none;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+}
+
+.fake-checkbox {
+    display: block;
+    width: 12px;
+    height: 12px;
+    margin-right: 3px;
+    background: #9AA1AB;
+    border-radius: 2px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+input[type="checkbox"]:checked ~ .fake-checkbox {
+    background-color: #15a4fa;
+}
+
+.subscribe button[type=submit] {
+    padding: 8px 50px;
+}
 

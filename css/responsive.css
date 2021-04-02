@@ -91,20 +91,27 @@
     .portfolio-item .hover {
         background: #15a4fa;
         display: none !important;
-        
+
     }
     .portfolio-item:hover .hover {
         display: flex !important;
-        
+
     }
     .portfolio-item .hover .fa {
         border: 1px solid #fff;
         opacity: 1;
         transition: 0.3s ease;
     }
-/*    .portfolio-item .hover .fa:hover {
-        background: rgba(255, 255, 255, 0.4);
-    }*/
+    /*    .portfolio-item .hover .fa:hover {
+            background: rgba(255, 255, 255, 0.4);
+        }*/
+    .subscribe {
+        padding: 74px 0 111px;
+    }
+
+    .subscribe .subtitle {
+        margin-bottom: 51px !important;
+    }
 }
 
 @media(min-width:1200px){
