@@ -219,3 +219,26 @@ input[type="checkbox"]:checked ~ .fake-checkbox {
     padding: 8px 50px;
 }
 
+/*FOOTER*/
+
+.main-footer .social .fa {
+    font-size:1rem;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    background: #15a4fa;
+    border-radius: 3px;
+    border: 1px solid #15a4fa;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+.main-footer .social .fa:hover {
+    background: transparent;
+    color: #15a4fa; 
+}
+
+
+
+
